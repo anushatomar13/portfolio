@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bground3.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +31,23 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Breast Cancer Classification",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This project implements a predictive model for breast cancer using Logistic Regression and provides interactive visualization of the Breast Cancer dataset.",
+    url: "https://github.com/anushatomar13/Breast_Cancer_classification",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Heart Disease Prediction",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Build a heart disease prediction model using machine learning algorithms.",
+    url: "https://github.com/anushatomar13/Heart_disease_prediction",
   },
   {
-    title: "My Resume Site",
+    title: "Checkout my blog on Google Women Engineers'23",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+      "In this blog, I have wrote about my selection process in the prestigious Google Women Engineers Program, Cohort-5.",
+    url: "https://medium.com/@anushatomar02130/google-we-women-engineers-program-by-talentsprint-supported-by-google-afb72135f363",
+  }
 ];
 
 const Portfolio = () => {

@@ -1,8 +1,4 @@
-/**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
- */
+
 
 import React from "react";
 
@@ -24,15 +20,15 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  name: "Anusha Tomar",
+  title: "Machine learning. Web Development. Open Source",
+  email: "anushatomar913@gmail.com",
+  gitHub: "anushatomar13",
+  instagram: "",
+  linkedIn: "anushatomar/",
+  medium: "anushatomar02130",
+  twitter: "",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
